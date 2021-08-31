@@ -1,11 +1,10 @@
 function compute()
 {
    var principal = document.getElementById("principal").value;
-   alert(principal);
-var rate = document.getElementById("rate").value;
+   var rate = document.getElementById("rate").value;
 var years = document.getElementById("years").value;
 var interest= principal*years*rate /100;
-   
+   alert (interest);
 var year = Date().getFullYear()+parseInt(years)
 }
  function updateRate() 
