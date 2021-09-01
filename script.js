@@ -17,7 +17,7 @@ function compute()
  function validate() 
 {
     var principal = document.getElementById("principal").value;
-	if ((principal<=0) or (principal==" ")) { 
+	if ((principal<=0) || (principal==" ")) { 
 	alert ("amount is not valid");
 	document.getElementById("principal").focus();	
 	}
