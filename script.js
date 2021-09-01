@@ -5,7 +5,7 @@ function compute()
 	alert ("Enter a positive number");
 	document.getElementById("principal").value="";
 	document.getElementById("principal").focus();
-		return
+		return false;
 	}
 	var rate = document.getElementById("rate").value;
 	var years = document.getElementById("years").value;
