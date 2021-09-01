@@ -14,3 +14,11 @@ function compute()
     document.getElementById("rate_val").innerText=rateval;
 }     
        
+ function validate() 
+{
+    var principal = document.getElementById("principal").value;
+	if (principal== 0) { 
+	alert ("amount is not valid);
+	}
+    //document.getElementById("rate_val").innerText=rateval;
+}     
