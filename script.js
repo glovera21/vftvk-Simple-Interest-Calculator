@@ -18,7 +18,7 @@ function compute()
 {
     var principal = document.getElementById("principal").value;
 	if (principal== 0) { 
-	alert ("amount is not valid);
+	alert ("amount is not valid");
 	}
     //document.getElementById("rate_val").innerText=rateval;
 }     
