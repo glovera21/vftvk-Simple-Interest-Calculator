@@ -19,7 +19,7 @@ function compute()
     var principal = document.getElementById("principal").value;
 	if ((principal<=0) || (principal==" ")) { 
 	alert ("amount is not valid");
-	document.getElementById("principal").focus();	
+	//document.getElementById("principal").focus();	
 	}
     //document.getElementById("rate_val").innerText=rateval;
 }     
