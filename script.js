@@ -17,9 +17,10 @@ function compute()
  function validate() 
 {
     var principal = document.getElementById("principal").value;
-	if ((principal<=0) || (principal==" ")) { 
-	alert ("amount is not valid");
-	//document.getElementById("principal").focus();	
+	if ((principal<0) || (principal==0)) { 
+	alert ("Enter a positive number");
+	document.getElementById("rate").focus();
+	document.getElementById("principal").focus();	
 	}
     //document.getElementById("rate_val").innerText=rateval;
 }     
